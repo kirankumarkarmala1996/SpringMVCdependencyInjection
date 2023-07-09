@@ -15,9 +15,9 @@
 		<property name="studentName" value="kirankumar" />
 		<property name="id" value="36" />
 	</bean>
-	<bean id="kiran" class="com.DependencyInjections.Student">
-		<property name="studentName" value="kumar" />
-		<property name="id" value="06" />
+	<bean id="kumar" class="com.DependencyInjections.Student">
+		<property name="studentName" value="Ashokkumar" />
+		<property name="id" value="066" />
 	</bean>
 
 	<!-- Constructor Injection -->
