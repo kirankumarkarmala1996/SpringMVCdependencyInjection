@@ -22,8 +22,8 @@ public class Exam {
 		Student stu=context.getBean("student",Student.class);
 		stu.displayStudentINFO();
 		
-//		Student name=context.getBean("kiran",Student.class);
-//		name.displayStudentINFO();
+		Student name=context.getBean("kiran",Student.class);
+		name.displayStudentINFO();
 		
 		
 		

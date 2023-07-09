@@ -22,6 +22,9 @@ public class Collage {
 		ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
 		Teacher tec=context.getBean("teacher",Teacher.class);
 		tec.displayTeacherInfo();
+		
+		Teacher tech=context.getBean("teach",Teacher.class);
+		tech.displayTeacherInfo();
 
 
 	}
