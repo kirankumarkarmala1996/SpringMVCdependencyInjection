@@ -23,12 +23,12 @@
 	<!-- Constructor Injection -->
 	<bean id="teacher"
 		class="com.ConstructerDependencyInjection.Teacher">
-		<constructor-arg value="Aravind" />
+		<constructor-arg value="Aravind" type="java.lang.String" />
 		<constructor-arg value="01" type="int" />
 	</bean>
 	<bean id="teach"
 		class="com.ConstructerDependencyInjection.Teacher">
-		<constructor-arg value="Rajkumar" />
+		<constructor-arg value="Rajkumar" type="java.lang.String" />
 		<constructor-arg value="036" type="int" />
 	</bean>
 
